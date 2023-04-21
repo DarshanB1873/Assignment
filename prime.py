@@ -8,11 +8,12 @@
 # Copyright:   (c) Darshan 2023
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
+#program to print prime number in a range.
 
 num1=int(input("Enter the lower range"))
 num2=int(input("Enter the upper range "))
 print("prime number between",num1,"and",num2,"are :")
-for n in range(num1,num2 + 1):
+for n in range(num1,num2 +1):
     if n>1:
         for i in range(2,n):
             if (n%i)==0:
