@@ -8,8 +8,16 @@
 # Copyright:   (c) Darshan 2023
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-L=str(input("Enter the alphabet:"))
-if (L=='a',L=='e',L=='i',L=='o',L=='u'):
+c=str(input("Enter the Alphabet"))
+if c=='a':
     print("Vowel")
+elif c=='e':
+    print("vowel")
+elif c=='i':
+    print("vowel")
+elif c=='o':
+    print("vowel")
+elif c=='u':
+    print("vowel")
 else:
-    print("Consonent")
+    print("consonent")
